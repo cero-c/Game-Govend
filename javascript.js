@@ -401,7 +401,7 @@ function checkOrder(level, flippedCards) {
             startAgain.style.display = 'block';
             nextButton.style.display = 'none';
             replayButton.style.display ='none';
-            checkButton.style.display = 'none';
+            checkButton.style.display = 'block';
             const scoreData = calculateScore(true);
             showScore(scoreData)
         }
